@@ -1,5 +1,4 @@
 baseurl         = "/"
-theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
@@ -64,5 +63,3 @@ canonifyurls    = true
   name = "External"
   url = "https://google.com/"
   weight = 95
-
-
