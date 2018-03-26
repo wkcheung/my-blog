@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://wkcheung.github.io/"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
