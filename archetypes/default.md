@@ -5,6 +5,7 @@ authorDescription: ""
 date: {{ .Date }}
 linktitle: "{{ replace (substr .Name 9) "-" " " }}"
 title: "{{ replace (substr .Name 9) "-" " " }}"
+image: img/welcome.jpg
 weight: 10
 tags: ["hugo", "food"]
 categories: ["try"]
