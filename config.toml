@@ -10,7 +10,7 @@ canonifyurls    = true
   subtitle    = "Software Engineer | Traveller | Movie Lover"
   copyright   = "© 2018"
 
-  cover       = "img/_blog-cover.jpg"
+  cover       = "img/blog-cover.jpg"
   description = "A personal site dedicated to share the thoughts of Amets Wing Kei Cheung"
   metaDescription = "Amets Cheung | A Dreamer"
   googleAnalytics = "UA-112508706-1"
