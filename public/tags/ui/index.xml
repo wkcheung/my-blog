@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ui on </title>
+    <link>https://wkcheung.github.io/tags/ui/</link>
+    <description>Recent content in Ui on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 18 Mar 2018 21:31:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://wkcheung.github.io/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7 Practical Tips for Cheating at Design</title>
+      <link>https://wkcheung.github.io/post/7-practical-tips-for-cheating-at-design/</link>
+      <pubDate>Sun, 18 Mar 2018 21:31:25 +0800</pubDate>
+      
+      <guid>https://wkcheung.github.io/post/7-practical-tips-for-cheating-at-design/</guid>
+      <description>My notes for Adam Wathan &amp;amp; Steve Schoger - 7 Practical Tips for Cheating at Design.
+1. Use color and weight to create hierarchy instead of size 2. Don’t use grey text on colored backgrounds  Reduce the opacity of white text
+ Hand-pick a color that’s based on the background color (for image/pattern background)
+  3. Offset your shadows 4. Use fewer borders  Use a box shadow</description>
+    </item>
+    
+  </channel>
+</rss>
