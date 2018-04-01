@@ -13,7 +13,7 @@ canonifyurls    = true
   cover       = "img/_blog-cover.jpg"
   description = "A personal site dedicated to share the thoughts of Amets Wing Kei Cheung"
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-112508706-1"
   customCSS = []
   RSSLink = ""
 
