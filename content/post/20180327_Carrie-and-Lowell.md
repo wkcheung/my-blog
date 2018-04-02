@@ -7,6 +7,7 @@ linktitle: "One of my favorite albums of recent years"
 title: "Carrie and Lowell"
 image: img/20180327_carrie-and-lowell.jpg
 weight: 10
+comments: true
 tags: ["music", "interests"]
 categories: ["hobbies"]
 ---

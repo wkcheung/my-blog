@@ -6,6 +6,7 @@ date: 2018-03-18T21:31:25+08:00
 linktitle: "Adam Wathan & Steve Schoger - 7 Practical Tips for Cheating at Design"
 title: "7 Practical Tips for Cheating at Design"
 weight: 10
+comments: true
 tags: ["ui", "design", "web", "development"]
 categories: ["Web Development"]
 ---

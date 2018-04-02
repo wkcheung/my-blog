@@ -6,6 +6,7 @@ date: 2018-02-10T20:30:21+08:00
 linktitle: "Samer Buna - All the fundamental React.js concepts, jammed into this single Medium article"
 title: "All the fundamental React.js concepts, jammed into this single Medium article"
 weight: 10
+comments: true
 tags: ["react", "web", "development"]
 categories: ["Web Development"]
 ---

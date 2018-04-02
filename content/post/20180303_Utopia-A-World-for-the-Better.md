@@ -7,6 +7,7 @@ linktitle: "Utopia: A World for the Better"
 title: "Utopia: A World for the Better"
 image: https://d1u4oo4rb13yy8.cloudfront.net/article/84010-bcuwhuudyt-1520520781.jpg
 weight: 10
+comments: true
 tags: ["technology", "future"]
 categories: ["Thoughts"]
 ---

@@ -1,18 +1,18 @@
 baseurl         = "https://wkcheung.github.io/"
 languageCode    = "en-US"
-disqusShortname = ""
+disqusShortname = "wkcheung-github-io"
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
 [params]
-  title       = "Amets Cheung | A Dreamer"
+  title       = "Amets Cheung"
   subtitle    = "Software Engineer | Traveller | Movie Lover"
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
   description = "A personal site dedicated to share the thoughts of Amets Wing Kei Cheung"
-  metaDescription = "Amets Cheung | A Dreamer"
+  metaDescription = "Amets Cheung"
   googleAnalytics = "UA-112508706-1"
   customCSS = []
   RSSLink = ""
