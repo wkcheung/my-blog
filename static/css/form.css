@@ -1,0 +1,40 @@
+/*
+* Edited - Elegant Contact Form by Mark Murray
+* https://codepen.io/markmurray/pen/JsAhx
+*/
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+form input, form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus, form textarea:focus {
+  -moz-box-shadow: 1px 1.5px 2px 0 rgba(170, 170, 170, 0.6) !important;
+  -webkit-box-shadow: 1px 1.5px 2px 0 rgba(170, 170, 170, 0.6) !important;
+  box-shadow: 1px 1.5px 2px 0 rgba(170, 170, 170, 0.6) !important;
+}
+form #input-submit {
+  color: white;
+  background: #60889D;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 126px;
+}

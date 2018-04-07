@@ -14,7 +14,7 @@ canonifyurls    = true
   description = "A personal site dedicated to share the thoughts of Amets Wing Kei Cheung"
   metaDescription = "Amets Cheung"
   googleAnalytics = "UA-112508706-1"
-  customCSS = []
+  customCSS = ["css/form.css"]
   RSSLink = ""
 
   twitterName = ""
@@ -53,3 +53,8 @@ canonifyurls    = true
   name = "Blog"
   url = "/categories/"
   weight = 99
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 10

@@ -1,24 +1,37 @@
 {{ partial "head" . }}
 
-{{if ne .Site.Params.singleViewStyle "casper"}}<body class="ctsingle">
-{{else}}<body class="page-template">{{end}}
-<div class="site-wrapper"> 
-
-{{if ne .Site.Params.singleViewStyle "casper"}}{{ partial "header" . }}
-{{else}}{{ partial "header-sori" . }}{{end}}
-
+<body onload="scrollDown()" class="home-template"><div class="site-wrapper">
+<div id="mainHeader">
+  {{ partial "header" . }}
+</div>
 
 <main id="site-main" class="site-main outer" role="main">
   <div class="inner">
-  	{{if ne .Site.Params.singleViewStyle "casper"}}
-    <div class="post-feed">
-      {{ partial "page-single" . }}
-    </div>
+    {{ if .Params.contact }}
+      {{ partial "contact" . }}
     {{else}}
-      {{ partial "page-single-sori" . }}
+      {{if ne .Site.Params.singleViewStyle "casper"}}
+      <div class="post-feed">
+        {{ partial "page-single" . }}
+      </div>
+      {{else}}
+        {{ partial "page-single-sori" . }}
+      {{end}}
     {{end}}
   </div>
 </main>
 
 {{ partial "footer" . }}
-</div>{{ partial "js" . }}</body></html>
+</div>{{ partial "js" . }}
+
+<script>
+function scrollDown() {
+  var mainHeader = document.getElementById("mainHeader");
+    window.scrollBy({
+      top: mainHeader.scrollHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
+}
+</script>
+</body></html>
